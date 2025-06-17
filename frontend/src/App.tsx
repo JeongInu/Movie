@@ -1,11 +1,11 @@
-import { Button } from "@/components/ui/button"
+import FileUpload from './components/FileUpload';
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-svh">
-      <Button>Click me</Button>
+    <div className="min-h-screen flex items-center justify-center bg-gray-50">
+      <FileUpload />
     </div>
-  )
+  );
 }
 
 export default App
