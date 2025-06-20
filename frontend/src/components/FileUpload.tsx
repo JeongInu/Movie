@@ -55,7 +55,7 @@ const FileUpload = () => {
         className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition disabled:opacity-50"
         disabled={isUploading}
       >
-        업로드
+        {isUploading ? '업로드 중~':'업로드'}
       </Button>
 
       {message && <p className="mt-4 text-lg font-medium text-gray-700">{message}</p>}
